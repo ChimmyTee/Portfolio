@@ -19,9 +19,10 @@ code {
 
 
 .active {
-  background-color: #fff;
-  padding: 1em;
-  border-radius: 100%;
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 20%;
+  transform:scale(2);
 }
 
 
