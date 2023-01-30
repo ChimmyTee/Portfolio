@@ -4,18 +4,21 @@ import About from './components/About';
 import Banner from './components/Banner';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
+import Header from './components/Header';
+import Services from './components/Services';
+import Work from './components/Work';
 
 function App() {
   return (
-    <div class='bg-stone-100'>
-      <h1 class="font-bold tracking-tight hover:tracking-wide">
-        Hello world!
-      </h1>
+    <div class='bg-neutral-200'>
+      <Header />
+      <Banner />
       <Nav />
       <About />
-      <Banner />
+      <Services />
+      <Work />
       <Contact />
-      <div class='bg-stone-100 h-screen'></div>
+      <div class='bg-neutral-200 h-screen'></div>
     </div>
   );
 }

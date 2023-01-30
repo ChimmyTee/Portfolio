@@ -4,5 +4,10 @@ module.exports = {
   theme: {
     extend: {},
   },
+  container: {
+    padding: {
+      DEFAULT: '15px',
+    },
+  },
   plugins: [],
 }
