@@ -10,7 +10,7 @@ import Work from './components/Work';
 
 function App() {
   return (
-    <div class='bg-neutral-200'>
+    <div class='bg-neutral-100'>
       <Header />
       <Banner />
       <Nav />
@@ -18,7 +18,7 @@ function App() {
       <Services />
       <Work />
       <Contact />
-      <div class='bg-neutral-200 h-screen'></div>
+      <div class='bg-neutral-100 h-screen'></div>
     </div>
   );
 }

@@ -7,7 +7,7 @@ const Nav = () => {
         <div class='container mx-auto'>
             <div class='w-full bg-slate-300 h-[96px] backdrop-blur-2xl
             rounded-full max-w-[460px] mx-auto px-5 flex items-center justify-around text-2xl'>
-                <Link to='home' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
+                <Link to='home' activeClass='active' smooth={true} spy={true} offset={-200} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BiHomeAlt />
                 </Link>
                 <Link to='about' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
