@@ -6,7 +6,7 @@ import shoppingCartImg from '../assets/ShoppingCart_snippet.JPG';
 import toDoListImg from '../assets/ToDoList_snippet.JPG';
 
 const Work = () => {
-    return <div class='section' id='work'>
+    return <div class='section mx-3' id='work'>
         <div class='container mx-auto border-2'>
             <div class='flex flex-col lg:flex-row gap-x-10'>
                 <div class='flex-1 flex flex-col gap-y-12 mb-10'>
@@ -33,7 +33,9 @@ const Work = () => {
                     <div class='group relative overflow-hidden border-2 border-black rounded-xl'>
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={shoppingCartImg} alt='' />
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>UI/UX Design</div>
+                        <a target="_blank" href='https://chimmytee.github.io/shopping-cart-generation/'>
+                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>Shopping Cart</div>
+                        </a>
                         <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'>Project Title</div>
                     </div>
                     <div class='group relative overflow-hidden border-2 border-black rounded-xl'>

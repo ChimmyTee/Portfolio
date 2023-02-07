@@ -10,14 +10,14 @@ const Nav = () => {
                 <Link to='home' activeClass='active' smooth={true} spy={true} offset={-200} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BiHomeAlt />
                 </Link>
+                <Link to='work' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
+                    <BsBriefcase />
+                </Link>
                 <Link to='about' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BiUser />
                 </Link>
                 <Link to='services' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BsClipboardData />
-                </Link>
-                <Link to='work' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
-                    <BsBriefcase />
                 </Link>
                 <Link to='contact' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BsChatSquareText />

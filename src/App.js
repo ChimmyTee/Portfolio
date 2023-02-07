@@ -13,10 +13,11 @@ function App() {
     <div class='bg-neutral-100'>
       <Header />
       <Banner />
+      <Work />
       <Nav />
       <About />
       <Services />
-      <Work />
+      
       <Contact />
       <div class='bg-neutral-100 h-screen'></div>
     </div>
