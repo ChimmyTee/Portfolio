@@ -19,11 +19,13 @@ const Work = () => {
                     <div class='group relative overflow-hidden border-2 border-black rounded-xl'>
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={renaiHRImg} alt='' />
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>UI/UX Design</div>
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'>Project Title</div>
+                        <a target="_blank" href='https://chimmytee.github.io/renaisshr360/'>
+                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>Recruitment Agency</div>
+                        </a>
+                        <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'><p>Real client website (built with Bootstrap 5)</p></div>
+
                     </div>
                 </div>
-
                 <motion.div
                     variants={fadeIn('right', 0.2)}
                     initial='hidden'
@@ -41,7 +43,9 @@ const Work = () => {
                     <div class='group relative overflow-hidden border-2 border-black rounded-xl'>
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={toDoListImg} alt='' />
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>UI/UX Design</div>
+                        <a target="_blank" href='https://raissa-damasceno.github.io/Sprint_1_Generation/'>
+                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>To Do List</div>
+                        </a>
                         <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'>Project Title</div>
                     </div>
                 </motion.div>
