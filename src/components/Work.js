@@ -20,7 +20,7 @@ const Work = () => {
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={renaiHRImg} alt='' />
                         <a target="_blank" href='https://chimmytee.github.io/renaisshr360/'>
-                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>Recruitment Agency</div>
+                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>Recruitment Agency</div>
                         </a>
                         <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'><p>Real client website (built with Bootstrap 5)</p></div>
 
@@ -36,7 +36,7 @@ const Work = () => {
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={shoppingCartImg} alt='' />
                         <a target="_blank" href='https://chimmytee.github.io/shopping-cart-generation/'>
-                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>Shopping Cart</div>
+                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>Shopping Cart</div>
                         </a>
                         <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'>Project Title</div>
                     </div>
@@ -44,7 +44,7 @@ const Work = () => {
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={toDoListImg} alt='' />
                         <a target="_blank" href='https://raissa-damasceno.github.io/Sprint_1_Generation/'>
-                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white'>To Do List</div>
+                            <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>To Do List</div>
                         </a>
                         <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'>Project Title</div>
                     </div>
