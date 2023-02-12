@@ -9,7 +9,7 @@ module.exports = {
   },
   container: {
     padding: {
-      DEFAULT: '15px',
+      DEFAULT: '20px',
     },
   },
   plugins: [],

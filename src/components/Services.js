@@ -20,7 +20,7 @@ const services = [
 ]
 
 const Services = () => {
-    return <div class='section' id='services'>
+    return <div class='section mx-3' id='services'>
         <div className="container mx-auto">
             <div class='font-title text-2xl'>The values of my Work</div>
 
