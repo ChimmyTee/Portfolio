@@ -2,20 +2,21 @@ import { BsArrowUpRight } from 'react-icons/bs';
 
 const services = [
     {
-        name: 'IU/UX Design',
+        name: 'Business Strategy',
         description: 'something something',
-        link: 'Learn more',
     },
     {
-        name: 'Marketing',
+        name: 'Copywriting',
         description: 'something something',
-        link: 'Learn more',
     },
     {
-        name: 'Product Branding',
+        name: 'Collaboration',
         description: 'something something',
-        link: 'Learn more',
-    }
+    },
+    {
+        name: 'Numbers and Data oriented',
+        description: 'something something',
+    },
 ]
 
 const Services = () => {
@@ -25,7 +26,11 @@ const Services = () => {
 
             <div>
                 {services.map((service, index) => {
-                    return <div>service[index].name</div>
+                    const { name, description } = service;
+                    return (<div key={index} class='border-b border-yellow-300'>
+                        <div>{name}</div>
+                        <div>{description}</div>
+                    </div>);
                 })}
             </div>
         </div>

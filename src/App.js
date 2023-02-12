@@ -17,7 +17,7 @@ function App() {
       <Nav />
       <About />
       <Services />
-      
+
       <Contact />
       <div class='bg-neutral-100 h-screen'></div>
     </div>
