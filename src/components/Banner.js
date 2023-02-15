@@ -27,7 +27,8 @@ const Banner = () => {
                                 2000,
                             ]} className='font-title text-4xl' speed={50} wrapper='span' repeat={Infinity} />
                         </h1>
-                        <p class='mb-3'>Something something something
+                        <p class='mb-3'>Recently graduated from 'Generation Australia' Web Developer Bootcamp
+                            Something something something
                             fdsaf dsaf dsaf gfdsh fef eaf fdsaf ? eaf
                             fdsafds a jklfdsjfie j foeiwa jl;fd
                         </p>
