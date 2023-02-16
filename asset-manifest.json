@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0f64dcb3.css",
-    "main.js": "/Portfolio/static/js/main.90dee938.js",
+    "main.css": "/Portfolio/static/css/main.e91a624d.css",
+    "main.js": "/Portfolio/static/js/main.2c919902.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RenaiHR_snippet.JPG": "/Portfolio/static/media/RenaiHR_snippet.41a2ba11351839236959.JPG",
     "static/media/ShoppingCart_snippet.JPG": "/Portfolio/static/media/ShoppingCart_snippet.10340e961da5ba27c60d.JPG",
     "static/media/ToDoList_snippet.JPG": "/Portfolio/static/media/ToDoList_snippet.20d1631a7e04854774bb.JPG",
     "static/media/mochi_ice_cream.jpg": "/Portfolio/static/media/mochi_ice_cream.254c41f86516fe4e3739.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.0f64dcb3.css.map": "/Portfolio/static/css/main.0f64dcb3.css.map",
-    "main.90dee938.js.map": "/Portfolio/static/js/main.90dee938.js.map",
+    "main.e91a624d.css.map": "/Portfolio/static/css/main.e91a624d.css.map",
+    "main.2c919902.js.map": "/Portfolio/static/js/main.2c919902.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f64dcb3.css",
-    "static/js/main.90dee938.js"
+    "static/css/main.e91a624d.css",
+    "static/js/main.2c919902.js"
   ]
 }
