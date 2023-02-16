@@ -5,17 +5,17 @@ import { Link } from 'react-scroll';
 const Nav = () => {
     return <nav class='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
         <div class='container mx-auto'>
-            <div class='w-full bg-slate-300 h-[96px] backdrop-blur-2xl
-            rounded-full max-w-[460px] mx-auto px-5 flex items-center justify-around text-2xl'>
+            <div class='w-full bg-yellow-400 h-[96px] backdrop-blur-2xl
+            rounded-lg max-w-[460px] mx-auto px-5 flex items-center justify-around text-2xl'>
                 <Link to='home' activeClass='active' smooth={true} spy={true} offset={-200} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BiHomeAlt />
                 </Link>
                 <Link to='work' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BsBriefcase />
                 </Link>
-                <Link to='about' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
+                {/* <Link to='about' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BiUser />
-                </Link>
+                </Link> */}
                 <Link to='services' activeClass='active' smooth={true} spy={true} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BsClipboardData />
                 </Link>

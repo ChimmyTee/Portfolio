@@ -18,7 +18,7 @@ code {
 
 
 .active {
-  background-color: white;
+  background-color: ghostwhite;
   padding: 0.2em;
   border-radius: 20%;
   transform:scale(2);
@@ -30,6 +30,6 @@ code {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
   .btn {
-    @apply rounded-full bg-yellow-400 text-2xl p-4;
+    @apply rounded-lg bg-yellow-400 text-2xl p-3;
   }
 }

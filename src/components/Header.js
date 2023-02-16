@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 const Header = () => {
     return (
         <header class='py-8 grid grid-cols-2 border-b-2'>
@@ -10,7 +12,9 @@ const Header = () => {
                 </h1>
             </div>
             <div class='grid justify-items-end'>
-                <button class='btn mr-4'>Work with Me</button>
+                <Link to='contact' smooth={true}>
+                    <button class='btn mr-4'>Work with Me</button>
+                </Link>
             </div>
         </header>
     );
