@@ -3,33 +3,33 @@ import { BsArrowUpRight } from 'react-icons/bs';
 const services = [
     {
         name: 'Business Strategy',
-        description: 'something something',
+        description: 'I ensure that each website is easy to use, effective, or streamlined to improve sales. SEO is applied where possible.',
     },
     {
         name: 'Copywriting',
-        description: 'something something',
+        description: 'I enjoy writing good copy as it positively impacts the value of visiting the website',
     },
     {
         name: 'Collaboration',
-        description: 'something something',
+        description: 'I am respectful to my peers and well equipped with tools to communicate effectively.',
     },
     {
-        name: 'Numbers and Data oriented',
-        description: 'something something',
+        name: 'Numbers and Data Oriented',
+        description: 'Keeping track of your numbers and data is valuable for analysis, whether its for performance, persuasion, reflection or making quick decisions.',
     },
 ]
 
 const Services = () => {
     return <div class='section mx-3' id='services'>
         <div className="container mx-auto">
-            <div class='font-title text-2xl'>The values of my Work</div>
+            <div class='font-bold text-2xl mb-7'>Values I think about as I work</div>
 
             <div>
                 {services.map((service, index) => {
                     const { name, description } = service;
-                    return (<div key={index} class='border-b border-yellow-300'>
-                        <div>{name}</div>
-                        <div>{description}</div>
+                    return (<div key={index} class='border-b border-zinc-300 mb-5'>
+                        <div class='font-bold'>{name}</div>
+                        <div class='mb-2'>{description}</div>
                     </div>);
                 })}
             </div>

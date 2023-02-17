@@ -30,7 +30,7 @@ const Work = () => {
                         <a target="_blank" href='https://chimmytee.github.io/renaisshr360/'>
                             <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>Recruitment Agency</div>
                         </a>
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'><p>Real client website (built with Bootstrap 5)</p></div>
+                        <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'><p>Real client website, currently in progress (built with Bootstrap 5)</p></div>
 
                     </div>
                 </div>

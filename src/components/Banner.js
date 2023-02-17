@@ -14,7 +14,8 @@ const Banner = () => {
         <div class='container mx-auto'>
             <div>
 
-                <div class='flex flex-row gap-4 text-center lg:text-left'>
+                <div class='flex flex-col gap-4 text-center lg:text-left lg:flex-row'>
+                    <div class='flex justify-center lg:hidden'><img src={mochi_ice_cream} alt='' class='w-2/3'/></div>
                     <div class='flex flex-col'>
                         <h1 class='text-2xl font-bold mb-4'>About Me</h1>
                         <h1 class='text-2xl'>I am 
@@ -46,7 +47,7 @@ const Banner = () => {
                             </a>
                         </div>
                     </div>
-                    <div><img src={mochi_ice_cream} alt='' /></div>
+                    <div class='hidden lg:block'><img src={mochi_ice_cream} alt='' /></div>
                 </div>
 
 
