@@ -6,7 +6,8 @@ const Nav = () => {
     return <nav class='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
         <div class='container mx-auto'>
             <div class='w-full bg-yellow-400 h-[96px] backdrop-blur-2xl
-            rounded-lg max-w-[460px] mx-auto px-5 flex items-center justify-around text-2xl'>
+            rounded-lg mx-auto px-5 flex items-center justify-around text-2xl
+            max-w-[400px] lg:max-w-[460px]'>
                 <Link to='home' activeClass='active' smooth={true} spy={true} offset={-200} class='cursor-pointer w-[60px] h-[60px] flex items-center justify-around'>
                     <BiHomeAlt />
                 </Link>

@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="flex flex-col lg:flex-row">
                 <div class='lg:w-2/6 flex flex-col justify-center'>
                     <h1 class='font-bold text-2xl'>Let's have a chat</h1>
-                    <p>whether its a business enquiry or a story</p>
+                    <p>whether its a business enquiry or a story.</p>
                 </div>
                 <motion.form
                     variants={fadeIn('left', 0.2)}

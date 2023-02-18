@@ -12,8 +12,7 @@ const Work = () => {
                 <div class='flex-1 flex flex-col gap-y-12 mb-10'>
                     <div>
                         <h1 class='text-2xl font-bold'>My Latest Work</h1>
-                        <p class='max-w-sm mb-2'>Click on project title to view in new tab.<br></br><br></br>
-                        This portfolio is made using React and Tailwind CSS.<br></br><br></br>
+                        <p class='max-w-sm mb-2'>This portfolio is made using React and Tailwind CSS.<br></br><br></br>
                         Projects in the pipeline:
                             <div class='indent-4 font-bold'>
                                 <li>Personal CMS Blog</li>

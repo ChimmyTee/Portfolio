@@ -14,15 +14,15 @@ const services = [
         description: 'I am respectful to my peers and well equipped with tools to communicate effectively.',
     },
     {
-        name: 'Numbers and Data Oriented',
-        description: 'Keeping track of your numbers and data is valuable for analysis, whether its for performance, persuasion, reflection or making quick decisions.',
+        name: 'Numbers and Data',
+        description: 'I believe that keeping track of key numbers and data is valuable for analysis, whether its for performance, persuasion, reflection or making quick decisions.',
     },
 ]
 
 const Services = () => {
     return <div class='section mx-3' id='services'>
         <div className="container mx-auto">
-            <div class='font-bold text-2xl mb-7'>Values I think about as I work</div>
+            <div class='font-bold text-2xl mb-7'>Values I strive to achieve in my websites</div>
 
             <div>
                 {services.map((service, index) => {

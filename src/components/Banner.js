@@ -1,4 +1,6 @@
-import mochi_ice_cream from '../assets/mochi_ice_cream.jpg'
+import mochi_ice_cream from '../assets/mochi_ice_cream.jpg';
+
+import ai_selfie from '../assets/AI_Selfie.jpg';
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
@@ -15,10 +17,15 @@ const Banner = () => {
             <div>
 
                 <div class='flex flex-col gap-4 text-center lg:text-left lg:flex-row'>
-                    <div class='flex justify-center lg:hidden'><img src={mochi_ice_cream} alt='' class='w-2/3'/></div>
+                    <div class='flex justify-center lg:hidden'>
+                        <figure class='w-2/3'>
+                            <img src={ai_selfie} alt='' />
+                            <figcaption class='text-center bg-yellow-600 bg-opacity-50'>AI generated portrait of myself</figcaption>
+                        </figure>
+                    </div>
                     <div class='flex flex-col'>
                         <h1 class='text-2xl font-bold mb-4'>About Me</h1>
-                        <h1 class='text-2xl'>I am 
+                        <h1 class='text-2xl'>I am
                             <TypeAnimation sequence={[
                                 ' Creative',
                                 2000,
@@ -39,15 +46,20 @@ const Banner = () => {
                         </p>
 
                         <div class='flex justify-center text-4xl gap-x-2 m-2'>
-                            <a href='#'>
+                            <a target="_blank" href='https://www.linkedin.com/in/jimmy-tran-7b0562b8'>
                                 <FaLinkedin />
                             </a>
-                            <a href='#'>
+                            <a target="_blank" href='https://github.com/ChimmyTee'>
                                 <FaGithub />
                             </a>
                         </div>
                     </div>
-                    <div class='hidden lg:block'><img src={mochi_ice_cream} alt='' /></div>
+                    <div class='hidden lg:block'>
+                        <figure>
+                            <img src={ai_selfie} alt='' />
+                            <figcaption class='text-center bg-yellow-600 bg-opacity-50'>AI generated portrait of myself</figcaption>
+                        </figure>
+                    </div>
                 </div>
 
 
