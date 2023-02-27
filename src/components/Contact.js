@@ -23,6 +23,7 @@ const Contact = () => {
                     <div class='flex justify-end'>
                         <button type="submit" class='btn m-4'>Send</button>
                     </div>
+                    <input type="hidden" name="_next" value="https://chimmytee.github.io/Portfolio"></input>
                     {/* </form> */}
                 </motion.form>
             </div>
