@@ -8,9 +8,6 @@ module.exports = {
     extend: {},
   },
   container: {
-    padding: {
-      DEFAULT: '20px',
-    },
   },
   plugins: [],
 }

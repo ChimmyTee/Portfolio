@@ -29,7 +29,8 @@ const Work = () => {
                         <a target="_blank" href='https://chimmytee.github.io/renaisshr360/'>
                             <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>Recruitment Agency</div>
                         </a>
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'><p>Real client website, currently in progress (built with Bootstrap 5)</p></div>
+                        <div class='w-4/5 absolute -bottom-full left-12 text-white 
+                            group-hover:bottom-12 transition-all duration-700 z-50 lg:group-hover:bottom-16'><p>Real client website, currently in progress (built with Bootstrap 5)</p></div>
 
                     </div>
                 </div>
@@ -45,15 +46,17 @@ const Work = () => {
                         <a target="_blank" href='https://chimmytee.github.io/shopping-cart-generation/'>
                             <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>Shopping Cart</div>
                         </a>
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'>Assessment project (built with vanilla Javascript)</div>
+                        <div class='w-4/5 absolute -bottom-full left-12 text-white 
+                            group-hover:bottom-12 transition-all duration-700 z-50 lg:group-hover:bottom-14'>Assessment project (built with vanilla Javascript)</div>
                     </div>
                     <div class='group relative overflow-hidden border-2 border-zinc-200 rounded-xl'>
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={toDoListImg} alt='' />
-                        <a target="_blank" href='https://raissa-damasceno.github.io/Sprint_1_Generation/'>
+                        <a target="_blank" href='https://raissa-damasceno.github.io/To-Do-List-App/'>
                             <div class='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>To Do List</div>
                         </a>
-                        <div class='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 text-white'>Group project (demonstrated amazing teamwork) </div>
+                        <div class='w-4/5 absolute -bottom-full left-12 text-white 
+                            group-hover:bottom-12 transition-all duration-700 z-50 lg:group-hover:bottom-14'>Group project (demonstrated amazing teamwork) </div>
                     </div>
                 </motion.div>
             </div>

@@ -19,7 +19,7 @@ function App() {
       <Services />
 
       <Contact />
-      <div class='bg-neutral-100 h-screen'></div>
+      <div class='bg-neutral-100 h-screen md:h-0'></div>
     </div>
   );
 }
