@@ -28,13 +28,13 @@ const Work = () => {
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img class='group-hover:scale-95 transition-all duration-500' src={renaiHRImg} alt='' />
 
-                        <div class="w-14 h-14 absolute -bottom-full left-80 text-white 
-                            group-hover:bottom-32 transition-all duration-700 z-50 lg:group-hover:bottom-32">
+                        <div class="w-14 h-14 absolute -bottom-full left-56 text-white 
+                            group-hover:bottom-32 transition-all duration-700 z-50 lg:group-hover:bottom-32 lg:left-80">
                             <svg fill="#FFFFFF" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <polygon fill-rule="evenodd" points="14 19 14 21 3 21 3 10 5 10 5 17.586 18.293 4.293 19.707 5.707 6.414 19"></polygon> </g></svg>
                         </div>
 
-                        <div class='w-full absolute -bottom-full left-80 text-white 
-                            group-hover:bottom-44 transition-all duration-700 z-50 lg:group-hover:bottom-44'><p>Click title to view live site</p></div>
+                        <div class='w-full relative -bottom-full left-44 text-white 
+                            group-hover:bottom-44 transition-all duration-700 z-50 lg:group-hover:bottom-44 lg:left-80'><p>Click title to view live site</p></div>
                         {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-14 h-14 text-white
                          absolute -bottom-full left-72 group-hover:bottom-32 transition-all duration-500 z-50">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 4.5l-15 15m0 0h11.25m-11.25 0V8.25" />
