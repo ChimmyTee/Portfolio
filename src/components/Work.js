@@ -5,6 +5,7 @@ import renaiHRImg from '../assets/RenaiHR_snippet.JPG';
 import shoppingCartImg from '../assets/ShoppingCart_snippet.JPG';
 import toDoListImg from '../assets/ToDoList_snippet.JPG';
 import airbnbImg from '../assets/Airbnb_snippet.JPG';
+import chirpImg from '../assets/chirp_snippet.JPG';
 
 const Work = () => {
     return <div class='section mx-3' id='work'>
@@ -71,6 +72,16 @@ const Work = () => {
                         </a>
                         <div class='w-4/5 absolute -bottom-full left-12 text-white 
                             group-hover:bottom-12 transition-all duration-700 z-50 lg:group-hover:bottom-16'><p>Advanced exercise to practice React (built with Nextjs and Tailwind)</p></div>
+                    </div>
+                    <div class='group relative overflow-hidden border-2 border-zinc-200 rounded-xl'>
+                        <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                        <img class='group-hover:scale-95 transition-all duration-500' src={chirpImg} alt='' />
+                        <a target="_blank" href='https://chirp-chimmytee.vercel.app//'>
+                            <div class='absolute -bottom-full left-12 group-hover:bottom-28 transition-all duration-500 z-50 text-3xl text-white hover:underline underline-offset-4'>Twitter-like Full Stack Application</div>
+                        </a>
+                        <div class='w-4/5 absolute -bottom-full left-12 text-white 
+                            group-hover:bottom-12 transition-all duration-700 z-50 lg:group-hover:bottom-12'>First fully fledged application using Typescript, Tailwind, tRPC, NextJS, Prisma, PlanetScale, and NextJS.
+                        </div>
                     </div>
                     <div class='group relative overflow-hidden border-2 border-zinc-200 rounded-xl'>
                         <div class='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
